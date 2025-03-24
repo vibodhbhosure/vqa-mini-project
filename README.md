@@ -1,6 +1,6 @@
-# 🧠 Visual Question Answering System (Mini Project)
+# 🧠 Visual Question Answering System (IPCV Project)
 
-This project implements a **Visual Question Answering (VQA)** system that can analyze an image and answer natural language questions about it using a **pretrained BLIP model** from Hugging Face.
+This project implements a **Visual Question Answering (VQA)** system that can analyze a video, extract key scene frames, and answer natural language questions about any selected frame using a **pretrained BLIP model** from Hugging Face.
 
 ---
 
@@ -8,9 +8,10 @@ This project implements a **Visual Question Answering (VQA)** system that can an
 
 To build a lightweight and interactive VQA application that:
 
-- Accepts an image and a question as input.
-- Uses a pre-trained transformer-based model to process the inputs.
-- Returns a relevant and human-like answer.
+- Accepts a video as input and automatically detects scene changes.
+- Allows the user to select any scene frame from the video.
+- Lets the user ask a natural language question about the selected frame.
+- Uses a pre-trained transformer-based model (BLIP) to generate relevant answers.
 - Runs efficiently on a MacBook Air (Apple Silicon, 8GB RAM).
 
 ---
@@ -44,15 +45,17 @@ pip install -r requirements.txt
 ```
 ### 4. Run VQA App
 ```bash
-python app.py
+python vid_app.py
 ```
 ---
 
 ## 🖥️ User Interface (Gradio)
 
-- **Upload Image**: JPG or PNG format.
-- **Enter Question**: e.g., “What is the person doing?” or “How many people are there?”
-- **Output**: Answer appears instantly below.
+- **Upload Video**: MP4 or any supported video format.
+- **Extract Scene Frames**: Automatically detects scene changes and extracts representative frames.
+- **Select Frame**: Click on any frame from the scene gallery to ask a question.
+- **Enter Question**: e.g., “What is the person doing?” or “How many people are in the scene?”
+- **Output**: The system generates a relevant answer using a pretrained BLIP model.
 
 ---
 

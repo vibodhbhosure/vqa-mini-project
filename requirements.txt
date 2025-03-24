@@ -3,3 +3,5 @@ torchvision
 transformers
 gradio
 Pillow
+opencv-python
+scenedetect[opencv]
