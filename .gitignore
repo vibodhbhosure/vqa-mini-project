@@ -1,0 +1,19 @@
+# Ignore all pretrained language models
+*.bin
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.tar.gz
+
+# Ignore specific directories
+models/
+checkpoints/
+pretrained_models/
+
+# Ignore any temporary files
+*.tmp
+*.log
+*.bak
+
+.venv
