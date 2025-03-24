@@ -1,0 +1,6 @@
+Q: Who is this ?
+A: man
+
+Q: What color is he wearing ?
+A: blue
+

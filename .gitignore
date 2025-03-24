@@ -17,3 +17,7 @@ pretrained_models/
 *.bak
 
 .venv
+
+.gradio
+
+.txt
