@@ -30,7 +30,7 @@ To build a lightweight and interactive VQA application that:
 
 ### 1. Clone the Repository (or Download Files)
 ```bash
-git clone https://github.com/yourusername/vqa-mini-project.git
+git clone https://github.com/vibodhbhosure/vqa-mini-project.git
 cd vqa-mini-project
 ```
 ### 2. Install Dependencies
